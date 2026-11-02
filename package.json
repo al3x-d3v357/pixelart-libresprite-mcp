@@ -1,0 +1,26 @@
+{
+  "name": "pixelart-libresprite-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) Server para geração, animação e manipulação de Pixel Art conectando o LibreSprite ao Antigravity",
+  "main": "server.js",
+  "type": "commonjs",
+  "bin": {
+    "pixelart-libresprite-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "libresprite",
+    "pixelart",
+    "aseprite",
+    "spritesheet",
+    "gamedev",
+    "animation",
+    "antigravity"
+  ],
+  "author": "Alex Sandro (@al3x-d3v357)",
+  "license": "MIT"
+}
